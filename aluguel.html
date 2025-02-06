@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Aluguel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alugar Filmes 🎥</h1>
+
+        <nav class='menu'>
+            <a href="index.html">Voltar para Home</a>
+        </nav>
+
+        <input type="text" id="pesquisa-filme" placeholder="O que procura?">
+
+        <select id='filtro-genero'>
+            <option value="">Escolha o gênero</option>
+            <option value="Ação">Ação</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Animação">Animação</option>
+            <option value="Comédia">Comédia</option>
+            <option value="Comédia Romântica">Comédia Romântica</option>
+            <option value="Crime">Crime</option>
+            <option value="Documentário">Documentário</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasia">Fantasia</option>
+            <option value="Faroeste">Faroeste</option>
+            <option value="Ficção Científica">Ficção Científica</option>
+            <option value="Guerra">Guerra</option>
+            <option value="Musical">Musical</option>
+            <option value="Mistério">Mistério</option>
+            <option value="Romance">Romance</option>
+            <option value="Suspense">Suspense</option>
+            <option value="Terror">Terror</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Esporte">Esporte</option>
+            <option value="Histórico">Histórico</option>
+            <option value="Super-herói">Super-herói</option>
+            <option value="Biografia">Biografia</option>
+        </select>
+    </header>
+
+    <main>
+        <h2>Escolha um Filme para Alugar</h2>
+        <div id="filmes-aluguel"></div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="filmes.js"></script>
+</body>
+
+</html>
