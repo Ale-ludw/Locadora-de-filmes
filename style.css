@@ -82,20 +82,18 @@ form input {
     font-weight: bold;
 }
 
-#campo_usuario,
-#campo_senha {
+.campo_usuario,
+.campo_senha {
     outline: none;
     border: none;
     height: 20px;
     width: 200px;
-    position: absolute;
     align-items: center;
     margin-top: 30px;
 }
 
 #usuario, 
 #senha{ 
-    position: relative;
     color: white;
     font-size: larger;
     font-weight: bolder;

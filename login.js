@@ -4,7 +4,7 @@ let dados = JSON.parse(localStorage.getItem("dados")) || [
 
 addEventListener("DOMContentLoaded", () => {
     document.getElementById("login").addEventListener('click', logar)
-})
+
 
 function logar() {
     const user = document.getElementById('username').value
@@ -23,4 +23,4 @@ function logar() {
         alert("Usuário ou senha incorretos")
     }
 }
-
+})
